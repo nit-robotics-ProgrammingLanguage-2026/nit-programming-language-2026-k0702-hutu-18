@@ -15,6 +15,5 @@ int func3(int a, int b)
     if (a >= b) {
         return a - b;
     } else {
-        return b - a; /* TODO: a と b の差の絶対値を返す */
-    return 0;
+  return b - a; /* TODO: a と b の差の絶対値を返す */
 }
