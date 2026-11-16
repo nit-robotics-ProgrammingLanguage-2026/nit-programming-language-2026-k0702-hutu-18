@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#include <stdio.h>
+
 int func3(int a, int b);
 
 int main(void)
@@ -15,5 +17,7 @@ int func3(int a, int b)
     if (a >= b) {
         return a - b;
     } else {
-  return b - a; /* TODO: a と b の差の絶対値を返す */
+        return b - a;
+    }
 }
+
